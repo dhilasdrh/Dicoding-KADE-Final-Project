@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_detail"
+        android:icon="@drawable/ic_trophy"
+        android:title="@string/title_detail" />
+
+    <item
+        android:id="@+id/navigation_team"
+        android:icon="@drawable/ic_football"
+        android:title="@string/title_team" />
+
+    <item
+        android:id="@+id/navigation_match"
+        android:icon="@drawable/ic_soccerfield"
+        android:title="@string/title_match" />
+
+    <item
+        android:id="@+id/navigation_standings"
+        android:icon="@drawable/ic_clipboard"
+        android:title="@string/standings" />
+
+</menu>

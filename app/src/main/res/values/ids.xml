@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="id_img" type="id" />
+    <item name="id_name" type="id" />
+    <item name="pbNextMatch" type="id" />
+    <item name="noData" type="id" />
+    <item name="rvLeagueList" type="id" />
+    <item name="rvLastMatch" type="id" />
+    <item name="rvNextMatch" type="id" />
+    <item name="rvFavoriteLastMatch" type="id" />
+    <item name="rvFavoriteNextMatch" type="id" />
+    <item name="teamBadge" type="id" />
+    <item name="teamName" type="id" />
+    <item name="rvTeamList" type="id" />
+    <item name="teamdetail" type="id"/>
+</resources>

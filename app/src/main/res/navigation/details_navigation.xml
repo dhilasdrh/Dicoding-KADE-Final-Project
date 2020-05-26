@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_detail">
+
+    <fragment
+        android:id="@+id/navigation_detail"
+        android:name="com.dhilasadrah.kadesubmission5.league.detail.LeagueDetailFragment"
+        android:label="@string/info_league"
+        tools:layout="@layout/fragment_info_league" />
+
+    <fragment
+        android:id="@+id/navigation_team"
+        android:name="com.dhilasadrah.kadesubmission5.team.TeamFragment"
+        android:label="@string/title_team"
+        tools:layout="@layout/fragment_team" />
+
+    <fragment
+        android:id="@+id/navigation_match"
+        android:name="com.dhilasadrah.kadesubmission5.match.MatchFragment"
+        android:label="@string/title_match"
+        tools:layout="@layout/fragment_match" />
+
+    <fragment
+        android:id="@+id/navigation_standings"
+        android:name="com.dhilasadrah.kadesubmission5.standings.StandingsFragment"
+        android:label="@string/standings"
+        tools:layout="@layout/fragment_standings" />
+
+</navigation>
