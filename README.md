@@ -47,7 +47,7 @@ Here are the API resources that you can use to do this final project:
 * **Next match list**:
   * https://www.thesportsdb.com/api/v1/json/1/eventsnextleague.php?id={idLeague}
   * https://www.thesportsdb.com/api/v1/json/1/eventsnext.php?id={idTeam}
-* **Register previous match**:
+* **Previous match list**:
   * https://www.thesportsdb.com/api/v1/json/1/eventspastleague.php?id={idLeague}
   * https://www.thesportsdb.com/api/v1/json/1/eventslast.php?id={idTeam}
 * **Match details**: https://www.thesportsdb.com/api/v1/json/1/lookupevent.php?id={idEvent}
